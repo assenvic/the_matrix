@@ -44,6 +44,7 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     ast (2.4.0)
+<<<<<<< HEAD
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -53,20 +54,52 @@ GEM
     coderay (1.1.2)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
+=======
+    builder (3.2.4)
+    byebug (11.0.1)
+    coderay (1.1.2)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     concurrent-ruby (1.1.5)
     connection_pool (2.2.2)
     crass (1.0.6)
     database_cleaner (1.7.0)
+<<<<<<< HEAD
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+=======
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     diff-lcs (1.3)
     docile (1.3.2)
     dotenv (2.7.5)
     dotenv-rails (2.7.5)
       dotenv (= 2.7.5)
       railties (>= 3.2, < 6.1)
+<<<<<<< HEAD
     enumerable-lazy (0.0.2)
     equalizer (0.0.11)
+=======
+    dry-configurable (0.9.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.4, >= 0.4.7)
+    dry-container (0.7.2)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.1, >= 0.1.3)
+    dry-core (0.4.9)
+      concurrent-ruby (~> 1.0)
+    dry-equalizer (0.3.0)
+    dry-inflector (0.2.0)
+    dry-logic (1.0.5)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.2)
+      dry-equalizer (~> 0.2)
+    dry-types (1.2.2)
+      concurrent-ruby (~> 1.0)
+      dry-container (~> 0.3)
+      dry-core (~> 0.4, >= 0.4.4)
+      dry-equalizer (~> 0.3)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-logic (~> 1.0, >= 1.0.2)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     erubi (1.8.0)
     factory_bot (5.0.2)
       activesupport (>= 4.2.0)
@@ -78,6 +111,7 @@ GEM
     ffi (1.11.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+<<<<<<< HEAD
     grape (0.16.2)
       activesupport
       builder
@@ -88,6 +122,15 @@ GEM
       rack (>= 1.3.0)
       rack-accept
       virtus (>= 1.0.0)
+=======
+    grape (1.3.0)
+      activesupport
+      builder
+      dry-types (>= 1.1)
+      mustermann-grape (~> 1.0.0)
+      rack (>= 1.3.0)
+      rack-accept
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     grape-entity (0.4.8)
       activesupport
       multi_json (>= 1.3.2)
@@ -96,10 +139,15 @@ GEM
       grape-entity (< 0.5.0)
     grape-swagger-rails (0.3.1)
       railties (>= 3.2.12)
+<<<<<<< HEAD
     hashie (4.0.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
+=======
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     jaro_winkler (1.5.3)
     json (2.2.0)
     listen (3.1.5)
@@ -119,9 +167,16 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     multi_json (1.13.1)
+<<<<<<< HEAD
     multi_xml (0.6.0)
     mustermann19 (0.4.4)
       enumerable-lazy
+=======
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    mustermann-grape (1.0.1)
+      mustermann (>= 1.0.0)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     nio4r (2.4.0)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
@@ -140,7 +195,11 @@ GEM
       pry (>= 0.10.4)
     puma (4.3.1)
       nio4r (~> 2.0)
+<<<<<<< HEAD
     rack (2.0.8)
+=======
+    rack (2.1.1)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-cors (1.1.1)
@@ -210,6 +269,10 @@ GEM
     rubocop-rspec (1.30.0)
       rubocop (>= 0.58.0)
     ruby-progressbar (1.10.1)
+<<<<<<< HEAD
+=======
+    ruby2_keywords (0.0.2)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     ruby_dep (1.5.0)
     shoulda-matchers (4.1.0)
       activesupport (>= 4.2.0)
@@ -241,11 +304,14 @@ GEM
     tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.6.0)
+<<<<<<< HEAD
     virtus (1.0.5)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
+=======
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
@@ -259,8 +325,13 @@ DEPENDENCIES
   dotenv-rails
   factory_bot_rails
   faker
+<<<<<<< HEAD
   grape (~> 0.16.2)
   grape-entity (~> 0.4.8)
+=======
+  grape (= 1.3.0)
+  grape-entity
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
   grape-swagger (= 0.11.0)
   grape-swagger-rails
   listen (>= 3.0.5, < 3.2)
@@ -270,7 +341,11 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   puma (= 4.3.1)
+<<<<<<< HEAD
   rack (= 2.0.8)
+=======
+  rack (= 2.1.1)
+>>>>>>> In the beginning, there was nothing. And God said, 'Let there be matrix'.
   rack-cors (= 1.1.1)
   rack-mini-profiler (~> 1.0)
   rack-timeout (~> 0.5)
