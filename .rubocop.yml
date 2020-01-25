@@ -249,6 +249,7 @@ Style/MethodCallWithArgsParentheses:
   - puts
   Exclude:
   - Gemfile
+  - db/migrate/**
 
 Style/MethodDefParentheses:
   EnforcedStyle: require_parentheses
