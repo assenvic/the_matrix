@@ -11,6 +11,12 @@ module TheMatrix
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
+    # Add a defualt time zone for the app
+    config.time_zone = 'UTC'
+    config.active_record.default_timezone = :utc
+    # change schema format to add new types
+    config.active_record.schema_format = :sql
+
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
