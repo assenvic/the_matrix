@@ -11,7 +11,7 @@ gem 'grape-swagger', '0.11.0' # grape-swagger v0.20.0 and v0.20.1 break Swagger
 gem 'grape-swagger-rails'
 
 gem 'pg', '~> 1.0'
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 gem 'rack-cors', require: 'rack/cors'
 gem 'rack-timeout', '~> 0.5'
 gem 'rails', '~> 5.2.0'
