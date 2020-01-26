@@ -5,15 +5,15 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'grape', '1.3.0'
-gem 'grape-entity'
+gem 'grape', '~> 0.16.2'
+gem 'grape-entity', '~> 0.4.8'
 gem 'grape-swagger', '0.11.0' # grape-swagger v0.20.0 and v0.20.1 break Swagger
 gem 'grape-swagger-rails'
 gem 'loofah', '2.4.0'
 gem 'nokogiri', '1.10.7'
 gem 'pg', '~> 1.0'
 gem 'puma', '4.3.1'
-gem 'rack', '2.1.1'
+gem 'rack', '2.0.8'
 gem 'rack-cors', '1.1.1', require: 'rack/cors'
 gem 'rack-timeout', '~> 0.5'
 gem 'rails', '~> 5.2.0'

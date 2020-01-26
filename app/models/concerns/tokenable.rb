@@ -27,6 +27,7 @@ module Tokenable
   protected
 
   def set_tokens
+    return unless new_record?
     self.class.token_names.each do |token_name|
       send("#{token_name}=", generate_uniq_token(token_name))
     end

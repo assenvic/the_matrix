@@ -31,11 +31,6 @@ module V1
               default: 'application/the_matrix-v1+json',
               required: true,
             },
-            'household_token': {
-              type: 'String',
-              description: 'Authentication token for users',
-              required: true,
-            },
           }
         end
       end

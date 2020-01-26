@@ -6,7 +6,7 @@ class CreateRoutes < ActiveRecord::Migration[5.2]
       t.datetime :start_time
       t.datetime :end_time
 
-      # Since we only return by passpharse no need to index anything else
+      # Since we only return by passphrase no need to index anything else
       # and it's unique because it's the identifier
       t.string :passphrase, index: true, null: false, unique: true
 

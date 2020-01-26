@@ -9,7 +9,7 @@ module V1
       end
 
       rescue_from ActiveRecord::RecordNotFound do |exception|
-        render_api_error(exception, 404, message)
+        render_api_error(exception, 404)
       end
 
       rescue_from ActiveRecord::RecordInvalid do |exception|

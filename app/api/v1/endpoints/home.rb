@@ -3,6 +3,7 @@ module V1
     class Home < Grape::API
       include V1::Headers
       resources :home do
+        desc 'Application health check.'
         get do
           home = { hello: 'world!' }
           present home, with: V1::Entities::HomeEntity
