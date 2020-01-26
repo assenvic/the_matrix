@@ -14,5 +14,6 @@ module V1
 
     # Mount endpoints here
     mount V1::Endpoints::Home
+    mount V1::Endpoints::Routes
   end
 end

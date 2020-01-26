@@ -21,3 +21,6 @@
 
 en:
   hello: 'Hello world'
+  api:
+    error:
+      404: 'Record Not Found'
